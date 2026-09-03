@@ -26,12 +26,25 @@
                 <td><input type="text" name="lastName"></td>
             </tr>
             <tr>
-                <td>Email:</td>
-                <td><input type="email" name="email"></td>
+                <td>Subject:</td>
+                <td><input type="text" name="subject"></td>
+            </tr>
+            <tr>
+                <td>Message:</td>
+                <td><textarea name="message" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td>Preferred Contact Method:</td>
+                <td>
+                    <input type="radio" name="contactMethod" value="email">
+                    <label for="email">Email</label>
+                    <input type="radio" name="contactMethod" value="phone">
+                    <label for="phone">Phone</label>
+                </td>
             </tr>
             
         </table>
-        
+
         <button type="reset">Clear</button>
         <button type="submit">Submit</button>
     </form>
